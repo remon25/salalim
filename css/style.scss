@@ -43,6 +43,10 @@ $primary2: #0f2480;
   font-weight: bold;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   @include main-font();
   color: #0c0c0c;

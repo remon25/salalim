@@ -7,6 +7,10 @@
   font-family: "Kufi";
   src: url(../fonts/DroidKufi-Regular.woff2);
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Kufi", "Poppins", sans-serif;
   color: #0c0c0c;
