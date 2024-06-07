@@ -733,6 +733,9 @@ a:focus {
     align-items: center;
     margin-bottom: 35px;
   }
+  .sale-subtitle{
+    text-align: center;
+  }
 
   .sale_container {
     display: flex;
@@ -818,7 +821,7 @@ a:focus {
 
   .text p {
     height: 100%;
-    font-size: 28px;
+    font-size: 27px;
     line-height: 2.5;
     font-weight: bold;
     padding: 0;
@@ -904,10 +907,6 @@ a:focus {
       font-size: 300px;
     }
 
-    .text p {
-      font-size: 20px;
-    }
-
     .quote-wrapper blockquote footer {
       bottom: 32px;
     }
@@ -948,7 +947,7 @@ a:focus {
   .img-box {
     display: flex;
     align-items: center;
-    width: 115%;
+    width: 100%;
 
     .box.b1 {
       margin-right: 15px;

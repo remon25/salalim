@@ -108,9 +108,7 @@
     width: 100%;
     margin-top: 45px;
   }
-  .deal_section .row {
-    flex-wrap: wrap;
-  }
+ 
 
   .info_section .row > div {
     display: flex;
@@ -122,6 +120,8 @@
 
   .contact_section .row {
     flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
   }
 
   .contact_section .map_container {
@@ -158,6 +158,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 50px;
   }
 
   .info_section .info_contact .img-box {
@@ -212,6 +213,9 @@
   .footer_section p {
     width: 100%;
   }
+
+ 
+
 }
 
 @media (max-width: 480px) {
@@ -233,7 +237,59 @@
 }
 
 @media screen and (max-width:767px){
+  .custom_nav-container{
+    height: 60px;
+  }
+  .header_section .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.header_section {
+  padding: 15px 0;
+}
+.navbar-brand img{
+  width: 55px;
+}
+.deal_section .row {
+  flex-wrap: wrap;
+}
+
   .info_section .info_links h5,.info_section .info_links ul{
     text-align: center;
   }
+  .price_section .text p {
+    font-size: 20px  ;
+  }
 }
+
+@media screen and (max-width:996px){
+  
+  .price_section .text p {
+    font-size: 25px  ;
+  }
+  .info_section .row{
+    align-items: center;
+  }
+}
+@media screen and (max-width:850px){
+  
+  .price_section .text p {
+    font-size: 22px  ;
+  }
+}
+@media screen and (max-width:350px){
+  .price_section .container{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .price_section .quote-wrapper {
+    width: 280px;
+    height: 300px;
+  }
+  h2, .h2 {
+    font-size: 1.6rem;
+}
+
+}
+
+

@@ -593,6 +593,9 @@ a:focus {
   align-items: center;
   margin-bottom: 35px;
 }
+.sale_section .sale-subtitle {
+  text-align: center;
+}
 .sale_section .sale_container {
   display: flex;
   justify-content: center;
@@ -669,7 +672,7 @@ a:focus {
 }
 .price_section .text p {
   height: 100%;
-  font-size: 28px;
+  font-size: 27px;
   line-height: 2.5;
   font-weight: bold;
   padding: 0;
@@ -724,9 +727,6 @@ a:focus {
   .price_section .quote-wrapper::before {
     font-size: 300px;
   }
-  .price_section .text p {
-    font-size: 20px;
-  }
   .price_section .quote-wrapper blockquote footer {
     bottom: 32px;
   }
@@ -769,7 +769,7 @@ a:focus {
 .deal_section .img-box {
   display: flex;
   align-items: center;
-  width: 115%;
+  width: 100%;
 }
 .deal_section .img-box .box.b1 {
   margin-right: 15px;
