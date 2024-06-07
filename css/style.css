@@ -785,6 +785,7 @@ a:focus {
 .us_section {
   background-color: #0f2480;
   color: #ffffff;
+  margin-bottom: 100px;
 }
 .us_section h4 {
   font-size: 20px;
@@ -899,6 +900,8 @@ a:focus {
 .contact_section .heading_container {
   align-items: center;
   margin-bottom: 40px;
+  margin-top: 100px;
+  text-align: center;
 }
 .contact_section .container-fluid {
   background-color: #0f2480;
@@ -940,6 +943,15 @@ a:focus {
 }
 .contact_section .map_container .map-responsive {
   height: 100%;
+}
+
+.container-fluid.contact-page {
+  background-color: #ffffff;
+}
+
+.container-fluid.contact-page input {
+  background-color: rgba(15, 36, 128, 0.2);
+  border-radius: 5px;
 }
 
 .info_section {
