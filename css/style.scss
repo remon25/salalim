@@ -1,7 +1,7 @@
 $white: #ffffff;
 $black: #252525;
-$primary1: #3554d1;
-$primary2: #0f2480;
+$primary1: #324b4a;
+$primary2: #007170;
 
 @mixin main-font {
   font-family: "Kufi", "Poppins", sans-serif;
@@ -43,7 +43,7 @@ $primary2: #0f2480;
   font-weight: bold;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -52,9 +52,8 @@ body {
   color: #0c0c0c;
   background-color: #ffffff;
   direction: rtl;
-  
 }
-.row{
+.row {
   margin-left: 0;
   margin-right: 0;
 }
@@ -127,7 +126,7 @@ svg .svg-elem-1 {
 
 svg.active .svg-elem-1 {
   stroke-dashoffset: 0;
-  fill: rgb(43, 95, 161);
+  fill: #324b4a;
 }
 
 svg .svg-elem-2 {
@@ -368,7 +367,7 @@ svg.active .svg-elem-15 {
   .hero_area {
     height: auto;
     background: none;
-    background-color: #0f2480;
+    background-color: #007170;
     margin-top: 40px;
   }
 }
@@ -525,7 +524,7 @@ a:focus {
   display: block;
   width: 50px;
   height: 5px;
-  background-color: #0f2480;
+  background-color: #007170;
   margin: 6px 0;
   transition: all 0.3s;
 }
@@ -737,7 +736,7 @@ a:focus {
     align-items: center;
     margin-bottom: 35px;
   }
-  .sale-subtitle{
+  .sale-subtitle {
     text-align: center;
   }
 
@@ -807,8 +806,8 @@ a:focus {
     /*BLUE BG*/
     background: radial-gradient(
       ellipse at center,
-      rgba(53, 84, 209, 1) 0%,
-      rgba(53, 84, 200, 1) 70%,
+      #007170 0%,
+      #007170 70%,
       rgba(0, 128, 172, 0) 70.3%
     );
     /*RED BG
@@ -922,7 +921,7 @@ a:focus {
 // deal section
 
 .deal_section {
-  .row{
+  .row {
     flex-wrap: nowrap;
     gap: 2rem;
     margin-top: 100px;
@@ -971,7 +970,7 @@ a:focus {
   background-color: $primary2;
   color: $white;
   margin-bottom: 100px;
-  h4{
+  h4 {
     font-size: 20px;
     line-height: 1.5;
   }
@@ -1155,7 +1154,7 @@ a:focus {
     outline: none;
     border: none;
     color: $white;
-    background: #f97616;
+    background: $primary1;
     border-radius: 25px;
     margin: 45px 0 0 auto;
     text-transform: uppercase;
@@ -1170,11 +1169,11 @@ a:focus {
   }
 }
 
-.container-fluid.contact-page{
+.container-fluid.contact-page {
   background-color: #ffffff;
 }
-.container-fluid.contact-page input{
-  background-color: rgb(15 36 128 / 20%);
+.container-fluid.contact-page input {
+  background-color: rgb(50 75 74 / 15%);
   border-radius: 5px;
 }
 
