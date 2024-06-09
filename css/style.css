@@ -754,7 +754,6 @@ a:focus {
 .deal_section .row {
   flex-wrap: nowrap;
   gap: 2rem;
-  margin-top: 100px;
 }
 .deal_section .row {
   align-items: center;
