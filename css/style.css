@@ -916,7 +916,7 @@ a:focus {
   text-align: center;
 }
 .contact_section .container-fluid {
-  background-color: #007170;
+  background-color: #121212;
   color: #ffffff;
 }
 .contact_section .form_container {
@@ -967,7 +967,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #007170;
+  background-color: #121212;
   color: #ffffff;
   padding: 90px 0 45px 0;
 }
@@ -1017,6 +1017,12 @@ a:focus {
 .info_section .whats-link img {
   width: 20px;
 }
+.info_section .whats-link.phone a {
+  align-items: center;
+}
+.info_section .whats-link.phone img {
+  width: 14px;
+}
 .info_section .info_contact > div {
   gap: 0.5rem;
 }
@@ -1062,7 +1068,7 @@ a:focus {
 
 /* footer section*/
 .footer_section {
-  background-color: #007170;
+  background-color: #121212;
 }
 
 .footer_section p {

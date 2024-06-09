@@ -1095,7 +1095,7 @@ a:focus {
   }
 
   .container-fluid {
-    background-color: $primary2;
+    background-color: #121212;
     color: $white;
   }
 
@@ -1156,7 +1156,7 @@ a:focus {
 
 // info section
 .info_section {
-  background-color: $primary2;
+  background-color: #121212;
   color: $white;
   padding: 90px 0 45px 0;
   .row > div:nth-child(1) {
@@ -1214,6 +1214,16 @@ a:focus {
 
     img{
       width: 20px;
+    }
+    
+  }
+  .whats-link.phone{
+    a{
+
+      align-items:center;
+    }
+    img{
+      width: 14px;
     }
   }
 
@@ -1279,7 +1289,7 @@ a:focus {
 /* footer section*/
 
 .footer_section {
-  background-color: $primary2;
+  background-color:#121212 ;
 }
 
 .footer_section p {
