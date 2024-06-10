@@ -297,7 +297,6 @@ svg.active .svg-elem-15 {
   display: flex;
   color: #121212;
   align-items: center;
-  cursor: pointer !important;
 }
 
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item .nav-link {
