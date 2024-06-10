@@ -1,7 +1,13 @@
 @media (max-width: 1120px) {
+  .slider_section .detail-box h1{
+    font-size: 4rem;
+  }
 }
 
 @media (max-width: 992px) {
+  .hero-img{
+    display: none;
+  }
   .sale_section{
     margin-top: 100px;
   }
@@ -24,8 +30,9 @@
 
 @media (max-width: 992px) {
   .hero_area {
-    background: url(../images/without/9.png);
+    background: url(../images/without/101-f.png);
     background-size: cover;
+    background-position: center;
     height: auto;
     position: relative;
   }
@@ -235,6 +242,11 @@
     max-width: 1170px;
   }
 }
+@media (max-width: 1200px) {
+  .hero-img img{
+    width: 500px !important;
+  }
+}
 
 @media screen and (max-width:767px){
   .custom_nav-container{
@@ -263,6 +275,7 @@
 }
 
 @media screen and (max-width:996px){
+  
   
   .price_section .text p {
     font-size: 25px  ;
@@ -293,3 +306,12 @@
 }
 
 
+
+@media (min-width: 992px) {
+  .custom_menu-btn{
+    display: none;
+  }
+  .hero_area{
+    background: none;
+  }
+}

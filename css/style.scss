@@ -56,6 +56,7 @@ body {
 .row {
   margin-left: 0;
   margin-right: 0;
+  flex-direction: row-reverse;
 }
 
 .layout_padding {
@@ -356,11 +357,11 @@ svg.active .svg-elem-15 {
 
 /*header section*/
 .hero_area {
-  background-image: url(../images/without/9.png);
+  background-image: url(../images/without/10.jpeg);
   position: relative;
   background-repeat: no-repeat;
-  background-position: top left;
-  background-size: 60% 100%;
+  background-position: top right;
+  background-size: 35% 100%;
 }
 
 .sub_page {
@@ -386,7 +387,10 @@ svg.active .svg-elem-15 {
   }
 
   .navbar-expand-lg .navbar-nav {
-    width: 90%;
+    width: 100%;
+    a{
+      cursor: pointer !important;
+    }
   }
 
   .user_option {
@@ -395,8 +399,9 @@ svg.active .svg-elem-15 {
 
     a {
       display: flex;
-      color: $white;
+      color: #121212;
       align-items: center;
+      cursor: pointer !important;
     }
   }
 }
@@ -496,13 +501,32 @@ a:focus {
 }
 
 .User_option {
+  width: 100%;
   display: flex;
+  justify-content: center;
   align-items: center;
-  margin-left: auto;
-  margin-right: 35px;
+  gap: 2.2rem;
 
   a {
-    color: $white;
+    color: #121212;
+    font-size: 1.2rem;
+    transition: 1s all ease-in;
+    position: relative;
+    &:before {
+      transition: 0.2s all ease-in-out;
+      content: "";
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      height: 2px;
+      width: 0;
+      background-color: $primary1;
+    }
+    &:hover {
+      &:before {
+        width: 100%;
+      }
+    }
   }
 }
 
@@ -585,6 +609,13 @@ a:focus {
   width: 100%;
   text-align: center;
   margin-top: 30px;
+  a{
+    color: #fff !important;
+    cursor: pointer !important;
+    &:hover{
+      color: $black !important;
+    }
+  }
 }
 
 .menu_width {
@@ -597,6 +628,12 @@ a:focus {
 .slider_section {
   padding: 75px 0;
   color: #0b0b0b;
+  .hero-img {
+    img{
+
+      width: 700px;
+    }
+  }
 
   .container {
     position: relative;
@@ -605,6 +642,8 @@ a:focus {
 
   .row {
     align-items: center;
+    justify-content: space-around;
+    flex-wrap: nowrap;
   }
 
   .detail-box {
@@ -629,6 +668,7 @@ a:focus {
 
     .btn-box {
       margin-top: 45px;
+      cursor: pointer;
       text-align: center;
       @include arab-font();
 
@@ -688,6 +728,7 @@ a:focus {
   }
   .row {
     width: 100%;
+    flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
@@ -706,7 +747,7 @@ a:focus {
       font-size: 23px;
       margin-top: 15px;
       padding: 15px;
-      text-align: justify;
+      text-align: center;
     }
 
     a {
@@ -778,6 +819,8 @@ a:focus {
   }
 
   .btn-box {
+    cursor: pointer;
+
     display: flex;
     justify-content: center;
 
@@ -793,27 +836,24 @@ a:focus {
 // price section
 
 .price_section {
-
-  
-  
   /* center the blockquote in the page */
   .blockquote-wrapper {
-     display: flex;
-     padding: 0 20px;
+    display: flex;
+    padding: 0 20px;
   }
-  
+
   /* Blockquote main style */
   .blockquote {
-      position: relative;
-      font-family: 'Barlow Condensed', sans-serif;
-      max-width: 620px;
-      margin: 80px auto;
-      align-self: center;
+    position: relative;
+    font-family: "Barlow Condensed", sans-serif;
+    max-width: 620px;
+    margin: 80px auto;
+    align-self: center;
   }
-  
+
   /* Blockquote header */
   .blockquote h1 {
-    font-family: 'Kufi';
+    font-family: "Kufi";
     position: relative;
     text-align: center;
     font-size: 1.5rem;
@@ -825,32 +865,33 @@ a:focus {
     border-radius: 20px;
     padding: 25px;
   }
-  
+
   /* Blockquote right double quotes */
   .blockquote h1:after {
-      content:"";
-      position: absolute;
-      border: 2px solid $primary2;
-      border-radius: 0 50px 0 0;
-      width: 60px;
-      height: 60px;
-      bottom: -60px;
-      left: 50px;
-      border-bottom: none;
-      border-left: none;
-      z-index: 3; 
+    content: "";
+    position: absolute;
+    border: 2px solid $primary2;
+    border-radius: 0 50px 0 0;
+    width: 60px;
+    height: 60px;
+    bottom: -60px;
+    left: 50px;
+    border-bottom: none;
+    border-left: none;
+    z-index: 3;
   }
-  
+
   .blockquote h1:before {
-      content:"";
-      position: absolute;
-      width: 80px;
-      border: 6px solid #ffffff;
-      bottom: -3px;
-      left: 50px;
-      z-index: 2;
+    content: "";
+    position: absolute;
+    width: 80px;
+    border: 6px solid #ffffff;
+    bottom: -3px;
+    left: 50px;
+    z-index: 2;
   }
   .btn-box {
+    cursor: pointer;
     margin-top: 45px;
     text-align: center;
     @include arab-font();
@@ -859,35 +900,35 @@ a:focus {
     a {
       @include hero_btn($primary1, $white, 8px, 35px, 25px);
       margin-bottom: 75px;
+
+      
     }
   }
-  
+
   /* increase header size after 600px */
   @media all and (min-width: 600px) {
-      .blockquote h1 {
-          font-size: 2.2rem;
-          line-height: 1.5;
-     }
-  
+    .blockquote h1 {
+      font-size: 2.2rem;
+      line-height: 1.5;
+    }
   }
-  
+
   /* Blockquote subheader */
   .blockquote h4 {
-      position: relative;
-      color: #ffffff;
-      font-size: 1.3rem;
-      font-weight: 400;
-      line-height: 1.2;
-      margin: 0;
-      padding-top: 15px;
-      z-index: 1;
-      margin-left:150px;
-      padding-left:12px;
+    position: relative;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.2;
+    margin: 0;
+    padding-top: 15px;
+    z-index: 1;
+    margin-left: 150px;
+    padding-left: 12px;
   }
-  
-   
+
   .blockquote h4:first-letter {
-    margin-left:-12px;
+    margin-left: -12px;
   }
 }
 
@@ -896,6 +937,9 @@ a:focus {
 // deal section
 
 .deal_section {
+  .btn-box{
+    cursor: pointer;
+  }
   .row {
     flex-wrap: nowrap;
     gap: 2rem;
@@ -944,6 +988,7 @@ a:focus {
   background-color: #121212;
   color: $white;
   margin-bottom: 100px;
+  
   h4 {
     font-size: 20px;
     line-height: 1.5;
@@ -982,6 +1027,7 @@ a:focus {
 
   .btn-box {
     display: flex;
+    cursor: pointer;
     justify-content: center;
     margin-top: 20px;
 
@@ -990,6 +1036,11 @@ a:focus {
       background-color: $white;
       color: $black;
       border-radius: 25px;
+      transition: .1s all ease-in;
+
+      &:hover {
+        background-color: #007170;
+      }
     }
   }
 }
@@ -1155,6 +1206,9 @@ a:focus {
 
 // info section
 .info_section {
+  .row {
+    flex-direction: row;
+  }
   background-color: #121212;
   color: $white;
   padding: 90px 0 45px 0;
@@ -1197,31 +1251,31 @@ a:focus {
         }
       }
     }
-    
   }
-  .whats-link{
-    a{
+  .whats-link {
+    & > div {
       display: flex;
       align-items: baseline;
       gap: 0.5rem;
       color: #ffffff;
       font-size: 1.1rem;
-      p{
+      p {
         direction: ltr;
       }
     }
 
-    img{
+    .phone-img {
+      width: 12px;
+    }
+    .whatsapp-img {
       width: 20px;
     }
-    
   }
-  .whats-link.phone{
-    a{
-
-      align-items:center;
+  .whats-link.phone {
+    & > div {
+      align-items: center;
     }
-    img{
+    img {
       width: 14px;
     }
   }
@@ -1231,7 +1285,6 @@ a:focus {
       gap: 0.5rem;
     }
     .img-box {
-      width: 35px;
       display: flex;
       justify-content: center;
     }
@@ -1248,6 +1301,7 @@ a:focus {
       img {
         height: auto;
         margin-right: 12px;
+        margin-left: 12px;
       }
     }
   }
@@ -1288,7 +1342,7 @@ a:focus {
 /* footer section*/
 
 .footer_section {
-  background-color:#121212 ;
+  background-color: #121212;
 }
 
 .footer_section p {
