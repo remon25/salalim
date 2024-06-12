@@ -295,7 +295,7 @@ svg.active .svg-elem-15 {
 }
 .header_section .user_option a {
   display: flex;
-  color: #007170;
+  color: #121212;
   align-items: center;
 }
 
@@ -381,7 +381,7 @@ a:focus {
   gap: 2.2rem;
 }
 .User_option a {
-  color: #007170;
+  color: #121212;
   font-size: 1.2rem;
   transition: 1s all ease-in;
   position: relative;
