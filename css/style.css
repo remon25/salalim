@@ -295,7 +295,7 @@ svg.active .svg-elem-15 {
 }
 .header_section .user_option a {
   display: flex;
-  color: #00042a;
+  color: #007170;
   align-items: center;
 }
 
@@ -381,7 +381,7 @@ a:focus {
   gap: 2.2rem;
 }
 .User_option a {
-  color: #00042a;
+  color: #007170;
   font-size: 1.2rem;
   transition: 1s all ease-in;
   position: relative;
@@ -833,7 +833,7 @@ a:focus {
 }
 
 .us_section {
-  background-color: #00042a;
+  background-color: #007170;
   color: #ffffff;
   margin-bottom: 100px;
 }
@@ -959,7 +959,7 @@ a:focus {
   text-align: center;
 }
 .contact_section .container-fluid {
-  background-color: #00042a;
+  background-color: #007170;
   color: #ffffff;
 }
 .contact_section .form_container {
@@ -1010,7 +1010,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #00042a;
+  background-color: #007170;
   color: #ffffff;
   padding: 90px 0 45px 0;
 }
@@ -1117,7 +1117,7 @@ a:focus {
 
 /* footer section*/
 .footer_section {
-  background-color: #00042a;
+  background-color: #007170;
 }
 
 .footer_section p {
