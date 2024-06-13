@@ -57,7 +57,7 @@ body {
 .heading_container h2 {
   padding-right: 5px;
   position: relative;
-  border-right: 7px solid #007170;
+  border-right: 7px solid #0f2480;
   font-weight: bold;
 }
 
@@ -85,7 +85,7 @@ svg .svg-elem-1 {
 
 svg.active .svg-elem-1 {
   stroke-dashoffset: 0;
-  fill: #324b4a;
+  fill: rgb(43, 95, 161);
 }
 
 svg .svg-elem-2 {
@@ -306,7 +306,7 @@ svg.active .svg-elem-15 {
   text-transform: uppercase;
 }
 .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item.active .nav-link, .custom_nav-container.navbar-expand-lg .navbar-nav .nav-item:hover .nav-link {
-  color: #324b4a;
+  color: #3554d1;
 }
 
 a,
@@ -394,7 +394,7 @@ a:focus {
   right: 0;
   height: 2px;
   width: 0;
-  background-color: #324b4a;
+  background-color: #3554d1;
 }
 .User_option a:hover:before {
   width: 100%;
@@ -418,7 +418,7 @@ a:focus {
   display: block;
   width: 50px;
   height: 5px;
-  background-color: #012d2c;
+  background-color: #111111;
   margin: 6px 0;
   transition: all 0.3s;
 }
@@ -446,7 +446,7 @@ a:focus {
   top: 0;
   left: 0;
   background-color: rgb(0, 0, 0);
-  background-color: rgba(50, 75, 74, 0.9);
+  background-color: rgba(53, 84, 209, 0.9);
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -509,14 +509,14 @@ a:focus {
   flex-wrap: nowrap;
 }
 .slider_section .detail-box h1 {
-  color: #324b4a;
+  color: #3554d1;
   font-weight: bold;
   font-size: 5rem;
   text-align: center;
   font-family: "Messeri";
 }
 .slider_section .detail-box h1 span {
-  color: #007170;
+  color: #0f2480;
 }
 .slider_section .detail-box p {
   margin-top: 25px;
@@ -534,14 +534,14 @@ a:focus {
   display: inline-block;
   padding: 8px 35px;
   background-color: transparent;
-  color: #324b4a;
+  color: #3554d1;
   transition: all 0.3s;
-  border: 1px solid #324b4a;
+  border: 1px solid #3554d1;
   border-radius: 25px;
   margin-bottom: 75px;
 }
 .slider_section .detail-box .btn-box a:hover {
-  background-color: #324b4a;
+  background-color: #3554d1;
   border-color: transparent;
   color: #ffffff;
 }
@@ -605,14 +605,14 @@ a:focus {
   display: inline-block;
   padding: 7px 30px;
   background-color: transparent;
-  color: #324b4a;
+  color: #3554d1;
   transition: all 0.3s;
-  border: 1px solid #324b4a;
+  border: 1px solid #3554d1;
   border-radius: 25px;
   margin-top: 25px;
 }
 .about_section .detail-box a:hover {
-  background-color: #324b4a;
+  background-color: #3554d1;
   border-color: transparent;
   color: #ffffff;
 }
@@ -674,14 +674,14 @@ a:focus {
   display: inline-block;
   padding: 7px 30px;
   background-color: transparent;
-  color: #324b4a;
+  color: #3554d1;
   transition: all 0.3s;
-  border: 1px solid #324b4a;
+  border: 1px solid #3554d1;
   border-radius: 25px;
   margin-top: 35px;
 }
 .sale_section .btn-box a:hover {
-  background-color: #324b4a;
+  background-color: #3554d1;
   border-color: transparent;
   color: #ffffff;
 }
@@ -714,14 +714,14 @@ a:focus {
   line-height: 1.5;
   margin: 0;
   border: 2px solid #fff;
-  border: solid 2px #007170;
+  border: solid 2px #0f2480;
   border-radius: 20px;
   padding: 25px;
 }
 .price_section .blockquote h1:after {
   content: "";
   position: absolute;
-  border: 2px solid #007170;
+  border: 2px solid #0f2480;
   border-radius: 0 50px 0 0;
   width: 60px;
   height: 60px;
@@ -751,14 +751,14 @@ a:focus {
   display: inline-block;
   padding: 8px 35px;
   background-color: transparent;
-  color: #324b4a;
+  color: #3554d1;
   transition: all 0.3s;
-  border: 1px solid #324b4a;
+  border: 1px solid #3554d1;
   border-radius: 25px;
   margin-bottom: 75px;
 }
 .price_section .btn-box a:hover {
-  background-color: #324b4a;
+  background-color: #3554d1;
   border-color: transparent;
   color: #ffffff;
 }
@@ -809,14 +809,14 @@ a:focus {
   display: inline-block;
   padding: 7px 30px;
   background-color: transparent;
-  color: #324b4a;
+  color: #3554d1;
   transition: all 0.3s;
-  border: 1px solid #324b4a;
+  border: 1px solid #3554d1;
   border-radius: 25px;
   margin-top: 25px;
 }
 .deal_section .detail-box a:hover {
-  background-color: #324b4a;
+  background-color: #3554d1;
   border-color: transparent;
   color: #ffffff;
 }
@@ -833,7 +833,7 @@ a:focus {
 }
 
 .us_section {
-  background-color: #324b4a;
+  background-color: #0f2480;
   color: #ffffff;
   margin-bottom: 100px;
 }
@@ -922,7 +922,7 @@ a:focus {
   content: "";
   width: 50px;
   height: 155px;
-  background-color: #007170;
+  background-color: #0f2480;
   position: absolute;
   left: 10%;
   top: 37px;
@@ -931,7 +931,7 @@ a:focus {
 .client_section .client_container .carousel-control-next {
   width: 45px;
   height: 45px;
-  background-color: #007170;
+  background-color: #0f2480;
   border-radius: 100%;
   top: 50%;
   opacity: 1;
@@ -959,7 +959,7 @@ a:focus {
   text-align: center;
 }
 .contact_section .container-fluid {
-  background-color: #324b4a;
+  background-color: #0f2480;
   color: #ffffff;
 }
 .contact_section .form_container {
@@ -988,7 +988,7 @@ a:focus {
   outline: none;
   border: none;
   color: #ffffff;
-  background: #324b4a;
+  background: #3554d1;
   border-radius: 25px;
   margin: 45px 0 0 auto;
   text-transform: uppercase;
@@ -1010,7 +1010,7 @@ a:focus {
 }
 
 .info_section {
-  background-color: #324b4a;
+  background-color: #0f2480;
   color: #ffffff;
   padding: 90px 0 45px 0;
 }
@@ -1117,7 +1117,7 @@ a:focus {
 
 /* footer section*/
 .footer_section {
-  background-color: #324b4a;
+  background-color: #0f2480;
 }
 
 .footer_section p {

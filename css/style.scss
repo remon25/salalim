@@ -1,7 +1,7 @@
 $white: #ffffff;
 $black: #252525;
-$primary1: #324b4a;
-$primary2: #007170;
+$primary1: #3554d1;
+$primary2: #0f2480;
 
 @mixin main-font {
   font-family: "Kufi", "Poppins", sans-serif;
@@ -127,7 +127,7 @@ svg .svg-elem-1 {
 
 svg.active .svg-elem-1 {
   stroke-dashoffset: 0;
-  fill: #324b4a;
+  fill: rgb(43, 95, 161);
 }
 
 svg .svg-elem-2 {
@@ -547,7 +547,7 @@ a:focus {
   display: block;
   width: 50px;
   height: 5px;
-  background-color: #012d2c;
+  background-color: #111111;
   margin: 6px 0;
   transition: all 0.3s;
 }
@@ -983,7 +983,7 @@ a:focus {
 // us section
 
 .us_section {
-  background-color: $primary1;
+  background-color: $primary2;
   color: $white;
   margin-bottom: 100px;
   
@@ -1143,7 +1143,7 @@ a:focus {
   }
 
   .container-fluid {
-    background-color: $primary1;
+    background-color: $primary2;
     color: $white;
   }
 
@@ -1207,7 +1207,7 @@ a:focus {
   .row {
     flex-direction: row;
   }
-  background-color: $primary1;
+  background-color: $primary2;
   color: $white;
   padding: 90px 0 45px 0;
   .row > div:nth-child(1) {
@@ -1340,7 +1340,7 @@ a:focus {
 /* footer section*/
 
 .footer_section {
-  background-color: $primary1;
+  background-color: $primary2;
 }
 
 .footer_section p {
