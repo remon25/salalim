@@ -509,7 +509,7 @@ a:focus {
   flex-wrap: nowrap;
 }
 .slider_section .detail-box h1 {
-  color: #3554d1;
+  color: rgb(43, 95, 161);
   font-weight: bold;
   font-size: 5rem;
   text-align: center;
