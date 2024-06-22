@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /public/
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+Sitemap: https://www.salalimoffices.com/sitemap.xml
