@@ -388,7 +388,14 @@ svg.active .svg-elem-15 {
 
   .navbar-expand-lg .navbar-nav {
     width: 100%;
-    a{
+    button {
+      border: none;
+      margin: 0;
+      padding: 0;
+      background: none;
+      cursor: pointer;
+    }
+    a {
       cursor: pointer !important;
     }
   }
@@ -397,7 +404,8 @@ svg.active .svg-elem-15 {
     display: flex;
     align-items: center;
 
-    a {
+    a,
+    button {
       display: flex;
       color: #121212;
       align-items: center;
@@ -506,7 +514,8 @@ a:focus {
   align-items: center;
   gap: 2.2rem;
 
-  a {
+  a,
+  button {
     color: #121212;
     font-size: 1.2rem;
     transition: 1s all ease-in;
@@ -552,10 +561,7 @@ a:focus {
   transition: all 0.3s;
 }
 
-.menu_btn-style {
-  right: 40px;
-  top: 7px;
-}
+
 
 .custom_menu-btn .s-2 {
   width: 25px;
@@ -587,7 +593,8 @@ a:focus {
   font-size: 60px;
 }
 
-.overlay a {
+.overlay a,
+button {
   padding: 0px;
   text-decoration: none;
   font-size: 22px;
@@ -595,22 +602,35 @@ a:focus {
   display: block;
   transition: 0.3s;
   margin-bottom: 15px;
-
+&:focus{
+  outline: none;
+}
   &:hover {
     color: $black;
   }
 }
 
 .overlay-content {
+  display: flex;
+  flex-direction: column;
   position: relative;
   top: 30%;
   width: 100%;
   text-align: center;
   margin-top: 30px;
-  a{
+  button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    &:focus {
+      outline: none;
+    }
+  }
+  a,
+  button {
     color: #fff !important;
     cursor: pointer !important;
-    &:hover{
+    &:hover {
       color: $black !important;
     }
   }
@@ -627,8 +647,7 @@ a:focus {
   padding: 75px 0;
   color: #0b0b0b;
   .hero-img {
-    img{
-
+    img {
       width: 700px;
     }
   }
@@ -898,8 +917,6 @@ a:focus {
     a {
       @include hero_btn($primary1, $white, 8px, 35px, 25px);
       margin-bottom: 75px;
-
-      
     }
   }
 
@@ -935,7 +952,7 @@ a:focus {
 // deal section
 
 .deal_section {
-  .btn-box{
+  .btn-box {
     cursor: pointer;
   }
   .row {
@@ -986,7 +1003,7 @@ a:focus {
   background-color: $primary2;
   color: $white;
   margin-bottom: 100px;
-  
+
   h4 {
     font-size: 20px;
     line-height: 1.5;
@@ -1034,7 +1051,7 @@ a:focus {
       background-color: $white;
       color: $black;
       border-radius: 25px;
-      transition: .1s all ease-in;
+      transition: 0.1s all ease-in;
 
       &:hover {
         background-color: #007170;

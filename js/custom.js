@@ -14,7 +14,7 @@ function openNav() {
 
 
 function closeNav() {
-    document.querySelectorAll(".overlay-content a").forEach(a => a.addEventListener("click", () => {
+    [...document.querySelectorAll(".overlay-content button")]?.forEach(b => b?.addEventListener("click", () => {
         document.getElementById("myNav").classList.toggle("menu_width")
 
     }))
@@ -37,14 +37,6 @@ function setupScrollButton(button, targetElement) {
               });
         })
     }
-    // Add a click event listener to the button
-    button.addEventListener('click', function() {
-      // Scroll the target element into view
-      targetElement.scrollIntoView({
-        behavior: 'smooth', // Smooth scroll
-        block: 'start'      // Align to the top of the viewport
-      });
-    });
   }
   
   // Usage example:

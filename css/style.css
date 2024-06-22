@@ -286,6 +286,13 @@ svg.active .svg-elem-15 {
 .header_section .navbar-expand-lg .navbar-nav {
   width: 100%;
 }
+.header_section .navbar-expand-lg .navbar-nav button {
+  border: none;
+  margin: 0;
+  padding: 0;
+  background: none;
+  cursor: pointer;
+}
 .header_section .navbar-expand-lg .navbar-nav a {
   cursor: pointer !important;
 }
@@ -293,7 +300,8 @@ svg.active .svg-elem-15 {
   display: flex;
   align-items: center;
 }
-.header_section .user_option a {
+.header_section .user_option a,
+.header_section .user_option button {
   display: flex;
   color: #121212;
   align-items: center;
@@ -380,13 +388,15 @@ a:focus {
   align-items: center;
   gap: 2.2rem;
 }
-.User_option a {
+.User_option a,
+.User_option button {
   color: #121212;
   font-size: 1.2rem;
   transition: 1s all ease-in;
   position: relative;
 }
-.User_option a:before {
+.User_option a:before,
+.User_option button:before {
   transition: 0.2s all ease-in-out;
   content: "";
   position: absolute;
@@ -396,7 +406,8 @@ a:focus {
   width: 0;
   background-color: #3554d1;
 }
-.User_option a:hover:before {
+.User_option a:hover:before,
+.User_option button:hover:before {
   width: 100%;
 }
 
@@ -421,11 +432,6 @@ a:focus {
   background-color: #111111;
   margin: 6px 0;
   transition: all 0.3s;
-}
-
-.menu_btn-style {
-  right: 40px;
-  top: 7px;
 }
 
 .custom_menu-btn .s-2 {
@@ -458,7 +464,8 @@ a:focus {
   font-size: 60px;
 }
 
-.overlay a {
+.overlay a,
+button {
   padding: 0px;
   text-decoration: none;
   font-size: 22px;
@@ -467,22 +474,39 @@ a:focus {
   transition: 0.3s;
   margin-bottom: 15px;
 }
-.overlay a:hover {
+.overlay a:focus,
+button:focus {
+  outline: none;
+}
+.overlay a:hover,
+button:hover {
   color: #252525;
 }
 
 .overlay-content {
+  display: flex;
+  flex-direction: column;
   position: relative;
   top: 30%;
   width: 100%;
   text-align: center;
   margin-top: 30px;
 }
-.overlay-content a {
+.overlay-content button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.overlay-content button:focus {
+  outline: none;
+}
+.overlay-content a,
+.overlay-content button {
   color: #fff !important;
   cursor: pointer !important;
 }
-.overlay-content a:hover {
+.overlay-content a:hover,
+.overlay-content button:hover {
   color: #252525 !important;
 }
 
