@@ -30,7 +30,7 @@
 
 @media (max-width: 992px) {
   .hero_area {
-    background: url(../images/without/101-f.png);
+    background: url(../images/compressed/101-f.webp);
     background-size: cover;
     background-position: center;
     height: auto;
