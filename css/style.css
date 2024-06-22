@@ -23,6 +23,16 @@ body {
   flex-direction: row-reverse;
 }
 
+button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+button:focus {
+  outline: none;
+}
+
 .layout_padding {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -554,7 +564,8 @@ button:hover {
   text-align: center;
   font-family: "Kufi";
 }
-.slider_section .detail-box .btn-box a {
+.slider_section .detail-box .btn-box a,
+.slider_section .detail-box .btn-box button {
   display: inline-block;
   padding: 8px 35px;
   background-color: transparent;
@@ -563,8 +574,10 @@ button:hover {
   border: 1px solid #3554d1;
   border-radius: 25px;
   margin-bottom: 75px;
+  font-size: 1rem;
 }
-.slider_section .detail-box .btn-box a:hover {
+.slider_section .detail-box .btn-box a:hover,
+.slider_section .detail-box .btn-box button:hover {
   background-color: #3554d1;
   border-color: transparent;
   color: #ffffff;
@@ -625,7 +638,8 @@ button:hover {
   padding: 15px;
   text-align: center;
 }
-.about_section .detail-box a {
+.about_section .detail-box a,
+.about_section .detail-box button {
   display: inline-block;
   padding: 7px 30px;
   background-color: transparent;
@@ -634,8 +648,10 @@ button:hover {
   border: 1px solid #3554d1;
   border-radius: 25px;
   margin-top: 25px;
+  font-size: 1rem;
 }
-.about_section .detail-box a:hover {
+.about_section .detail-box a:hover,
+.about_section .detail-box button:hover {
   background-color: #3554d1;
   border-color: transparent;
   color: #ffffff;
@@ -694,7 +710,8 @@ button:hover {
   display: flex;
   justify-content: center;
 }
-.sale_section .btn-box a {
+.sale_section .btn-box a,
+.sale_section .btn-box button {
   display: inline-block;
   padding: 7px 30px;
   background-color: transparent;
@@ -703,8 +720,10 @@ button:hover {
   border: 1px solid #3554d1;
   border-radius: 25px;
   margin-top: 35px;
+  font-size: 1rem;
 }
-.sale_section .btn-box a:hover {
+.sale_section .btn-box a:hover,
+.sale_section .btn-box button:hover {
   background-color: #3554d1;
   border-color: transparent;
   color: #ffffff;
@@ -771,7 +790,8 @@ button:hover {
   font-family: "Kufi";
   font-weight: bold;
 }
-.price_section .btn-box a {
+.price_section .btn-box a,
+.price_section .btn-box button {
   display: inline-block;
   padding: 8px 35px;
   background-color: transparent;
@@ -781,7 +801,8 @@ button:hover {
   border-radius: 25px;
   margin-bottom: 75px;
 }
-.price_section .btn-box a:hover {
+.price_section .btn-box a:hover,
+.price_section .btn-box button:hover {
   background-color: #3554d1;
   border-color: transparent;
   color: #ffffff;
@@ -829,7 +850,8 @@ button:hover {
   font-size: 23px;
   text-align: center;
 }
-.deal_section .detail-box a {
+.deal_section .detail-box a,
+.deal_section .detail-box button {
   display: inline-block;
   padding: 7px 30px;
   background-color: transparent;
@@ -838,8 +860,10 @@ button:hover {
   border: 1px solid #3554d1;
   border-radius: 25px;
   margin-top: 25px;
+  font-size: 1rem;
 }
-.deal_section .detail-box a:hover {
+.deal_section .detail-box a:hover,
+.deal_section .detail-box button:hover {
   background-color: #3554d1;
   border-color: transparent;
   color: #ffffff;
@@ -895,15 +919,14 @@ button:hover {
   justify-content: center;
   margin-top: 20px;
 }
-.us_section .btn-box a {
+.us_section .btn-box a,
+.us_section .btn-box button {
   padding: 7px 30px;
   background-color: #ffffff;
   color: #252525;
   border-radius: 25px;
   transition: 0.1s all ease-in;
-}
-.us_section .btn-box a:hover {
-  background-color: #007170;
+  font-size: 1rem;
 }
 
 .client_section .heading_container {

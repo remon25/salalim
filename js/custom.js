@@ -27,7 +27,7 @@ closeNav();
 function setupScrollButton(button, targetElement) {
 
     if(button.length > 0){
-        button.forEach((btn) => {
+        [...button].forEach((btn) => {
             btn.addEventListener('click', function() {
                 // Scroll the target element into view
                 targetElement.scrollIntoView({
@@ -47,22 +47,29 @@ function setupScrollButton(button, targetElement) {
   
     setupScrollButton(button, targetElement);
   });
+
+
   document.addEventListener('DOMContentLoaded', function() {
     const button = document.querySelectorAll('.to-contact');
     const targetElement = document.getElementById('contact');
   
     setupScrollButton(button, targetElement);
   });
+
+
+
   document.addEventListener('DOMContentLoaded', function() {
     const button = document.querySelectorAll('.to-offices');
     const targetElement = document.getElementById('sale-container');
   
     setupScrollButton(button, targetElement);
   });
+
+
   document.addEventListener('DOMContentLoaded', function() {
-    const button = document.querySelector('.to-us');
+    const button = document.querySelectorAll('.to-us');
     const targetElement = document.getElementById('us-container');
-  
+
     setupScrollButton(button, targetElement);
   });
   
